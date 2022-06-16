@@ -91,6 +91,11 @@ body .textfooter {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+body iframe {
+  width: 100%;
+  max-height: 400px;
+  max-width: 500px;
+}
 body a {
   text-decoration: none;
 }

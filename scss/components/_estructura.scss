@@ -1,51 +1,58 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #0D1929;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2313243a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%231e375a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2313243b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231b3151' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2313243c' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23182c48' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2314253c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23152640' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2314253d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23122137' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2314253e' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%230f1c2f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-    .Aplicargrids {
-        display: grid;
-        grid-template-columns: auto auto;
-        border-radius: 10px;
-        padding: 1%;
-        background-color: #0f151f;
-        place-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0D1929;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2313243a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%231e375a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2313243b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231b3151' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2313243c' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23182c48' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2314253c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23152640' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2314253d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23122137' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2314253e' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%230f1c2f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  .Aplicargrids {
+      display: grid;
+      grid-template-columns: auto auto;
+      border-radius: 10px;
+      padding: 1%;
+      background-color: #0f151f;
+      place-items: center;
+    }
+    .Aplicargrids:hover {
+      transform: scale(1.018);
+      transition: all 0.5s;
+    }
+  .principales {
+      color: rgb(255, 255, 255);
+      font-family: "Commissioner", sans-serif;
+      margin: 20px;
+      font-size: 2em;
+    }
+    .principales__moviles {
+      color: rgb(255, 255, 255);
+      font-family: "Commissioner", sans-serif;
+      margin: 20px;
+      font-size: 1.5em;
+    }
+    .text {
+      margin: 20px;
+      font-family: "Roboto Flex", sans-serif;
+      color: #ffffff;
+      font-size: 1.2em;
+    }
+    .textfooter {
+      margin: 20px;
+      font-family: "Roboto Flex", sans-serif;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      max-height: 400px;
+      max-width: 500px;
       }
-      .Aplicargrids:hover {
-        transform: scale(1.018);
-        transition: all 0.5s;
-      }
-    .principales {
-        color: rgb(255, 255, 255);
-        font-family: "Commissioner", sans-serif;
-        margin: 20px;
-        font-size: 2em;
-      }
-      .principales__moviles {
-        color: rgb(255, 255, 255);
-        font-family: "Commissioner", sans-serif;
-        margin: 20px;
-        font-size: 1.5em;
-      }
-      .text {
-        margin: 20px;
-        font-family: "Roboto Flex", sans-serif;
-        color: #ffffff;
-        font-size: 1.2em;
-      }
-      .textfooter {
-        margin: 20px;
-        font-family: "Roboto Flex", sans-serif;
-        color: rgb(255, 255, 255);
-        text-align: center;
-      }
-      a {text-decoration: none;}
-    main {
-        padding-left: 1%;
-        padding-right: 1%;
-        padding-bottom: 40px;
-      }
+    a {text-decoration: none;}
+  main {
+      padding-left: 1%;
+      padding-right: 1%;
+      padding-bottom: 40px;
+    }
+
 }
+
