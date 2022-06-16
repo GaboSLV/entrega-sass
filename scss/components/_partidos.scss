@@ -1,0 +1,45 @@
+table {
+    background-color: #0b111a;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .maintable {
+    margin: 10px auto;
+  }
+  .loadingbar {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
+table:hover {
+  transform: scale(1.09) translateY(5px);
+  transition: all 1s;
+}
+  table:hover {
+    transform: scale(1.09) translateY(5px);
+    transition: all 1s;
+  }
+  th,
+  td {
+    padding: 15px;
+    border: 0px;
+  }
+  thead {
+    background-color: #21385a;
+  }
+  @media screen and (max-width: 768px) {
+    table {
+      background-color: #0b111a;
+      width: 300px;
+      border-collapse: crgb(10, 11, 13);
+    }
+    th,
+    td {
+      padding: 10px;
+      text-align: center;
+      font-family: "Roboto Flex", sans-serif;
+      border: 2px solid rgb(0, 0, 0);
+      font-size: 0.6em;
+    }
+  }
+  
