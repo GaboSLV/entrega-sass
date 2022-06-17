@@ -1,5 +1,6 @@
+@import "../base/maps";
 table {
-    background-color: #0b111a;
+    background-color: map-get($partidos , bgtable );
     width: 100%;
     border-collapse: collapse;
   }
@@ -30,7 +31,7 @@ table:hover {
   @media screen and (max-width: 768px) {
     table {
       background-color: #0b111a;
-      width: 300px;
+      width: map-get($partidos , tabletam );
       border-collapse: crgb(10, 11, 13);
     }
     th,

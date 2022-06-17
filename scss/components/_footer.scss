@@ -1,8 +1,7 @@
+@import "../base/extends";
+
  footer {
-    width: 100%;
-    background-color: #0b111a;
-    padding-bottom: 20px;
-    margin-top: auto;
+@extend %footerinfo;
     .fot {
         text-align: center;
       }
