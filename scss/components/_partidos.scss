@@ -1,5 +1,10 @@
 @import "../base/maps";
-table {
+.loadingbar {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
+  table {
     background-color: map-get($partidos , bgtable );
     width: 100%;
     border-collapse: collapse;
@@ -7,40 +12,13 @@ table {
   .maintable {
     margin: 10px auto;
   }
-  .loadingbar {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 2em;
-  }
-table:hover {
-  transform: scale(1.09) translateY(5px);
-  transition: all 1s;
-}
-  table:hover {
-    transform: scale(1.09) translateY(5px);
-    transition: all 1s;
-  }
   th,
   td {
-    padding: 15px;
+    padding: 17px;
     border: 0px;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
   }
   thead {
     background-color: #21385a;
   }
-  @media screen and (max-width: 768px) {
-    table {
-      background-color: #0b111a;
-      width: map-get($partidos , tabletam );
-      border-collapse: crgb(10, 11, 13);
-    }
-    th,
-    td {
-      padding: 10px;
-      text-align: center;
-      font-family: "Roboto Flex", sans-serif;
-      border: 2px solid rgb(0, 0, 0);
-      font-size: 0.6em;
-    }
-  }
-  

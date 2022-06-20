@@ -1,55 +1,35 @@
 @import "../base/extends";
 
-
-body {
-@extend %body;
-  .Aplicargrids {
-      display: grid;
-      grid-template-columns: auto auto;
-      border-radius: 10px;
-      padding: 1%;
-      background-color: #0f151f;
-      place-items: center;
-    }
-    .Aplicargrids:hover {
-      transform: scale(1.018);
-      transition: all 0.5s;
-    }
-  .principales {
-      color: rgb(255, 255, 255);
-      font-family: "Commissioner", sans-serif;
-      margin: 20px;
-      font-size: 2em;
-    }
-    .principales__moviles {
-      color: rgb(255, 255, 255);
-      font-family: "Commissioner", sans-serif;
-      margin: 20px;
-      font-size: 1.5em;
-    }
-    .text {
-      margin: 20px;
-      font-family: "Roboto Flex", sans-serif;
-      color: #ffffff;
-      font-size: 1.2em;
-    }
-    .textfooter {
-      margin: 20px;
-      font-family: "Roboto Flex", sans-serif;
-      color: rgb(255, 255, 255);
-      text-align: center;
-    }
-    iframe {
-      width: 100%;
-      max-height: 400px;
-      max-width: 500px;
-      }
-    a {text-decoration: none;}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
   main {
-      padding-left: 1%;
-      padding-right: 1%;
-      padding-bottom: 40px;
-    }
-
-}
-
+    padding-bottom: 40px;
+  }
+  body {
+    @extend %body;
+      }
+  main {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .Aplicargrids:hover {
+    transform: scale(1.018);
+    transition: all 0.5s;
+  }
+  table:hover {
+    transform: scale(1.09) translateY(5px);
+    transition: all 1s;
+  }
+  .Aplicargrids {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #0f151f;
+    place-items: center;
+  }

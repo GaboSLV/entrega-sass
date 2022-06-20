@@ -1,6 +1,6 @@
-@mixin contactoEdits {
-    display: $none;
+@mixin contactoEdits ($flex, $width, $column, $center){
+    display: $flex;
     width: $width;
-    height: $height;
-    background-color: $bgcolor;
+    flex-direction: $column;
+    align-items: $center;
 } 

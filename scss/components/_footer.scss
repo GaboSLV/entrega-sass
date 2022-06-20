@@ -1,11 +1,10 @@
 @import "../base/extends";
-
- footer {
-@extend %footerinfo;
-    .fot {
-        text-align: center;
-      }
-      .fot :hover {
-        color: rgb(129, 129, 129);
-      }
+.fot {
+    text-align: center;
   }
+  .fot :hover {
+    color: rgb(129, 129, 129);
+  }
+  footer {
+    @extend %footerinfo;
+      }
