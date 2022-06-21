@@ -2,18 +2,3 @@ $width:100%;
 $flex: flex;
 $column: column;
 $center: center;
-
-
-@mixin contactoEdits ($flex, $width, $column, $center){
-    display: $flex;
-    width: $width;
-    flex-direction: $column;
-    align-items: $center;
-} 
-
-.form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
