@@ -1,6 +1,12 @@
 @import "../base/variables";
 @import "../base/mixin";
-  form {
+.text {
+  margin: 20px;
+  font-family: "Roboto Flex", sans-serif;
+  color: #ffffff;
+  font-size: 1.2em;
+}  
+form {
     max-width: 500px;
     background-color: #0b111a;
     padding: 15px;
@@ -9,11 +15,11 @@
     flex-direction: column;
     border-radius: 15px;
     p {
-        margin: 10px 0px 10px 0px;
-      }
+      margin: 10px 0px 10px 0px;
+    }
   }
   .form {
-  @include contactoEdits ($center, $column, $flex, $width)
+  @include contactoEdits ($flex, $width, $column, $center)
   }
   form input {
     border: 0;
@@ -45,5 +51,8 @@
     100% {
       background-color: rgb(0, 70, 11);
     }
+  }
+  .testA {
+    width: 65%;
   }
   

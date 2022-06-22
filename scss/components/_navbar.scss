@@ -1,32 +1,32 @@
 .navbaredits {
-    background-color: #0b111a;
-    color: rgb(255, 255, 255);
-    padding: 1em;
-  }
-  .linkmod {
-    color: rgb(255, 255, 255);
-    font-size: 1.3em;
-    border-radius: 7px;
-  }
-  .navico {
-    background-image: url(https://i.ibb.co/rm7KQwS/pngegg.png);
-  }
-  .navalu {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .linkmod:hover {
-    color: rgb(127, 127, 127);
-    background-color: rgb(0, 0, 0);
-    transform: scale(1.5);
-    transition: all 0.6s;
-    border-radius: 7px;
-  }
-  a {
-    text-decoration: none;
-  }
-  header {
-    margin-bottom: 20px;
-  }
+  background-color: #0b111a;
+  color: rgb(255, 255, 255);
+  padding: 1em;
+}
+.linkmod {
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  border-radius: 7px;
+}
+.navico {
+  background-image: url(../assets/img/pngnav.png);
+}
+.navalu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkmod:hover {
+  color: rgb(127, 127, 127);
+  background-color: rgb(0, 0, 0);
+  transform: scale(1.5);
+  transition: all 0.6s;
+  border-radius: 7px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  margin-bottom: 20px;
+}
