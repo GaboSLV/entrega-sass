@@ -1,4 +1,4 @@
-@import "../base/maps";
+
 .loadingbar {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -8,6 +8,7 @@
     background-color: map-get($partidos , bgtable );
     width: 100%;
     border-collapse: collapse;
+    transition: all 300ms;
   }
   .maintable {
     margin: 10px auto;
