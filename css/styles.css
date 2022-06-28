@@ -184,7 +184,7 @@ form input {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center
 }
 
 .linkmod:hover {
@@ -265,7 +265,7 @@ td {
 }
 .Aplicargrids {
   animation-name: animacionesPrueba;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 
 @keyframes animacionesPrueba {
